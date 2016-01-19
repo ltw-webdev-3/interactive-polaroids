@@ -29,31 +29,42 @@ html {
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
 
+  transform: translate(200px, 200px);
 }
 
 .polaroid > img {
   display: block;
   width: 100%;
+
+  position: relative;
 }
 
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+
+  position: absolute;
+  bottom: 20px;
+  right: 85px;
 }
 
 .polaroid:nth-child(1) {
   z-index: 1;
   position: absolute;
+
+  transform: rotate(-35deg) translate(50px, 100px);
 }
 
 .polaroid:nth-child(2) {
   z-index: 2;
   position: absolute;
+
 }
 
 .polaroid:nth-child(2) {
   z-index: 3;
   position: absolute;
+
 }
 
 
