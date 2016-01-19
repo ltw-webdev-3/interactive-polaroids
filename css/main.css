@@ -47,6 +47,7 @@ html {
 .pola1 {
   transform: rotate(-10deg);
   transition: all 500ms linear;
+  z-index: 1;
 }
 
 .pola1:hover {
@@ -59,6 +60,7 @@ html {
   left:80px;
   top: 50px;
   transition: all 500ms linear;
+  z-index: 2;
 }
 
 .pola2:hover {
@@ -71,6 +73,7 @@ html {
   left: 160px;
   top: 50px;
   transition: all 500ms linear;
+  z-index: 1;
 }
 
 .pola3:hover {
