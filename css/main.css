@@ -82,7 +82,7 @@ html {
   left: 80px;
 }
 
-.polaroid:nth-child(1):hover, .polaroid:nth-child(2):hover, .polaroid:nth-child(3):hover{
+.polaroid:nth-child(1):hover, .polaroid:nth-child(2):hover, .polaroid:nth-child(3):hover {
   transform: rotate(0deg);
   z-index: 5;
 }
