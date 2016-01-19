@@ -28,6 +28,7 @@ html {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+  position: absolute;
 }
 
 .polaroid > img {
@@ -41,4 +42,16 @@ html {
   position: relative;
   bottom: 30px;
   left: 70px;
+}
+
+.polo1 {
+  transform: rotate(-10deg);
+}
+
+.polo2 {
+ transform: rotate(10deg);
+}
+
+.polo3 {
+  transform: rotate(30deg);
 }
