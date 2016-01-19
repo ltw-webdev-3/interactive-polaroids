@@ -39,3 +39,32 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
+
+.pictures {
+position: relative;
+padding: 100px;
+background: red;
+
+margin: 0 auto;
+padding: 200px;
+}
+
+.hadro {
+  position: absolute;
+ z-index: 0;
+ left: 30%;
+ top: 20%;
+}
+
+.ptera {
+  position: absolute;
+  z-index: 3;
+  left: 40%;
+}
+
+.stego {
+  position: absolute;
+  z-index: 2;
+  right: 30%;
+  top: 20%;
+}
