@@ -78,10 +78,8 @@ html {
   transition: all 200ms ease;
 }
 
-
-figure{
+figure {
   position: relative;
-
 }
 
 figcaption {
