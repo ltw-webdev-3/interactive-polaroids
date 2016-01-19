@@ -28,6 +28,8 @@ html {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+
+  position: relative;
 }
 
 .polaroid > img {
@@ -38,4 +40,20 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+
+  position: absolute;
+  bottom: 20px;
+  left: 70px;
+}
+
+polaroid:nth-child(1) {
+  position: absolute;
+}
+
+polaroid:nth-child(2) {
+  position: absolute;
+}
+
+polaroid:nth-child(3) {
+  position: absolute;
 }
