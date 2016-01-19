@@ -77,3 +77,15 @@ html {
   transform: rotate(15deg);
   transition: all 200ms ease;
 }
+
+
+figure{
+  position: relative;
+
+}
+
+figcaption {
+  position: absolute;
+  bottom: 1em;
+  left: 33%;
+}
