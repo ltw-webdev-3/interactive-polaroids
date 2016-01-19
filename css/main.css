@@ -39,3 +39,27 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
+
+.h {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  transform: rotate(-10deg);
+  z-index: 1;
+}
+
+.p {
+  position: absolute;
+  left: 35%;
+  top: 30%;
+  transform: rotate(5deg);
+  z-index: 3;
+}
+
+.s {
+  position: absolute;
+  left: 45%;
+  top: 25%;
+  transform: rotate(25deg);
+  z-index: 2;
+}
