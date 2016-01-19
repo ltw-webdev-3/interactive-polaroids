@@ -49,15 +49,31 @@ html {
   transition: all 500ms linear;
 }
 
-.polo2 {
+.polo1:hover {
+  transform: rotate(0deg);
+  z-index: 3;
+}
 
+.polo2 {
   transform: rotate(10deg);
   left:80px;
   top: 50px;
+  transition: all 500ms linear;
+}
+
+.polo2:hover {
+  transform: rotate(0deg);
+  z-index: 3;
 }
 
 .polo3 {
   transform: rotate(30deg);
   left: 160px;
   top: 50px;
+  transition: all 500ms linear;
+}
+
+.polo3:hover {
+  transform: rotate(0deg);
+  z-index: 3;
 }
