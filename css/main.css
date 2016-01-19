@@ -39,3 +39,51 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
+
+.pictures {
+  position: relative;
+  padding: 100px;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.hadro {
+  position: absolute;
+  z-index: 0;
+  left: 30%;
+  top: 20%;
+  transform: rotate(-15deg);
+  transition: all 200ms ease;
+}
+
+.hadro:hover, .ptera:hover, .stego:hover {
+  z-index: 5;
+  transform: rotate(0deg);
+}
+
+.ptera {
+  position: absolute;
+  z-index: 3;
+  left: 40%;
+  transform: rotate(-10deg);
+  transition: all 200ms ease;
+}
+
+.stego {
+  position: absolute;
+  z-index: 2;
+  right: 30%;
+  top: 20%;
+  transform: rotate(15deg);
+  transition: all 200ms ease;
+}
+
+figure {
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 1em;
+  left: 33%;
+}
