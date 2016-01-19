@@ -44,36 +44,36 @@ html {
   left: 70px;
 }
 
-.polo1 {
+.pola1 {
   transform: rotate(-10deg);
   transition: all 500ms linear;
 }
 
-.polo1:hover {
+.pola1:hover {
   transform: rotate(0deg);
   z-index: 3;
 }
 
-.polo2 {
+.pola2 {
   transform: rotate(10deg);
   left:80px;
   top: 50px;
   transition: all 500ms linear;
 }
 
-.polo2:hover {
+.pola2:hover {
   transform: rotate(0deg);
   z-index: 3;
 }
 
-.polo3 {
+.pola3 {
   transform: rotate(30deg);
   left: 160px;
   top: 50px;
   transition: all 500ms linear;
 }
 
-.polo3:hover {
+.pola3:hover {
   transform: rotate(0deg);
   z-index: 3;
 }
