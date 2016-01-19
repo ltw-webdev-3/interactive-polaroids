@@ -22,12 +22,13 @@ html {
 
 .polaroid {
   margin: 0;
-  padding: 10px;
+  padding: 10px 10px 0px 10px;
   width: 250px;
 
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+  position: absolute;
 }
 
 .polaroid > img {
@@ -38,4 +39,46 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+  position: relative;
+  bottom: 30px;
+  left: 70px;
+}
+
+.dino1 {
+  transform: rotate(-10deg);
+  left: 20px;
+  top: 50px;
+  transition: all 400ms linear;
+  z-index: 1;
+}
+
+.dino1:hover {
+  transform: rotate(0deg);
+  z-index: 3;
+}
+
+.dino2 {
+  transform: rotate(10deg);
+  left: 80px;
+  top: 50px;
+  transition: all 400ms linear;
+  z-index: 2;
+}
+
+.dino2:hover {
+  transform: rotate(0deg);
+  z-index: 3;
+}
+
+.dino3 {
+  transform: rotate(30deg);
+  left: 160px;
+  top: 50px;
+  transition: all 400ms linear;
+  z-index: 1;
+}
+
+.dino3:hover {
+  transform: rotate(0deg);
+  z-index: 3;
 }
