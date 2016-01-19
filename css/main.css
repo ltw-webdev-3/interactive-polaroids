@@ -52,17 +52,18 @@ html {
   z-index: 1;
   position: absolute;
 
-  transform: rotate(-35deg) translate(50px, 100px);
-}
-
-.polaroid:nth-child(2) {
-  z-index: 2;
-  position: absolute;
-
+  transform: rotate(-20deg) translate(25px, 200px);
 }
 
 .polaroid:nth-child(2) {
   z-index: 3;
+  position: absolute;
+
+  transform: rotate(5deg) translate(200px, 200px);
+}
+
+.polaroid:nth-child(3) {
+  z-index: 2;
   position: absolute;
 
 }
