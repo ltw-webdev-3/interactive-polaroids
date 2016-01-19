@@ -57,7 +57,7 @@ html {
 
 .pola2 {
   transform: rotate(10deg);
-  left:80px;
+  left: 80px;
   top: 50px;
   transition: all 500ms linear;
   z-index: 2;
