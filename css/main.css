@@ -30,7 +30,6 @@ html {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
 
   position: relative;
-  transform-origin: bottom;
 }
 
 .polaroid > img {
@@ -45,7 +44,7 @@ html {
 
 .polaroid:nth-child(1) {
   position: relative;
-  left: 25%;
+  left: 27%;
   top: 95px;
   transform: rotate(-15deg);
 }
@@ -58,7 +57,7 @@ html {
 
 .polaroid:nth-child(2) {
   position: relative;
-  left: 0%;
+  left: 35%;
   top: -15px;
   z-index: 1;
   transform: rotate(5deg);
@@ -72,7 +71,7 @@ html {
 
 .polaroid:nth-child(3) {
   position: relative;
-  left: 0%;
+  left: 45%;
   top: -225px;
   transform: rotate(35deg);
 }
