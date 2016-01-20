@@ -57,6 +57,7 @@ html {
 
 .polaroid:nth-child(1):hover {
   transform: rotate(0deg) translate(25px, 200px);
+  z-index: 100;
 }
 
 .polaroid:nth-child(2) {
@@ -68,6 +69,7 @@ html {
 
 .polaroid:nth-child(2):hover {
   transform: rotate(0deg) translate(200px, 200px);
+  z-index: 3;
 }
 
 .polaroid:nth-child(3) {
@@ -79,6 +81,7 @@ html {
 
 .polaroid:nth-child(3):hover {
   transform: rotate(0deg) translate(320px, 120px);
+  z-index: 3;
 }
 
 
