@@ -44,7 +44,7 @@ html {
 .polaroid:nth-child(1) {
   transform: rotate(-15deg);
   position: absolute;
-  left: 10%;
+  left: 20%;
   top: 90px;
   z-index: 1;
 }
@@ -52,7 +52,7 @@ html {
 .polaroid:nth-child(2) {
   transform: rotate(5deg);
   position: absolute;
-  left: 27%;
+  left: 30%;
   top: 90px;
   z-index: 3;
 }
@@ -60,37 +60,7 @@ html {
 .polaroid:nth-child(3) {
   transform: rotate(25deg);
   position: absolute;
-  right: 10%;
+  left: 40%;
   top: 90px;
   z-index: 2;
-}
-
-@media only screen and (min-width: 40em) {
-
-  .polaroid:nth-child(1) {
-    left: 15%;
-  }
-
-  .polaroid:nth-child(2) {
-    left: 35%;
-  }
-
-  .polaroid:nth-child(3) {
-    right: 15%;
-  }
-
-@media only screen and (min-width: 50em) {
-
-  .polaroid:nth-child(1) {
-    left: 25%;
-  }
-
-  .polaroid:nth-child(2) {
-    left: 38%;
-  }
-
-  .polaroid:nth-child(3) {
-    right: 25%;
-  }
-
 }
