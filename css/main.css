@@ -28,6 +28,8 @@ html {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+
+  position: relative;
 }
 
 .polaroid > img {
@@ -39,3 +41,17 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
+
+.polaroid:nth-child (1) {
+  position: absolute;
+  right: 50px;
+}
+
+.polaroid:nth-child (2) {
+  position: absolute;
+}
+
+.polaroid:nth-child (1) {
+  position: absolute;
+}
+
