@@ -58,7 +58,7 @@ html {
   position: absolute;
   top: 25%;
   left: 30%;
-  z-index: 1000;
+  z-index: 2;
 }
 
 .polaroid:nth-child(3) {
@@ -76,6 +76,7 @@ html {
 .polaroid:nth-child(1):hover, .polaroid:nth-child(2):hover, .polaroid:nth-child(3):hover {
   transform: rotate(0deg);
   z-index: 5;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.70);
 }
 
 
