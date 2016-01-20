@@ -33,9 +33,44 @@ html {
 .polaroid > img {
   display: block;
   width: 100%;
+
 }
 
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+
+  position: relative;
+  bottom: 20px;
+  left: 70px;
+}
+
+.polaroid:nth-child(1) {
+  transform: rotate(-15deg);
+  position: absolute;
+  top: 17%;
+  left: 20%;
+}
+
+.polaroid:nth-child(2) {
+  transform: rotate(5deg);
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  z-index: 2;
+}
+
+.polaroid:nth-child(3) {
+  position: absolute;
+  top: 19%;
+  left: 35%;
+  transform-origin: right bottom;
+  transform: rotate(32deg);
+  z-index: 1;
+}
+
+.polaroid:nth-child(1):hover, .polaroid:nth-child(2):hover, .polaroid:nth-child(3):hover {
+  transform: rotate(0deg);
+  z-index: 5;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.70);
 }
