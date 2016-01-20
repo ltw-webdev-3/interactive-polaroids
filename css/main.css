@@ -40,18 +40,40 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+
+  position: absolute;
+  bottom: 20px;
+  left:85px;
 }
 
-.polaroid:nth-child (1) {
+.polaroid:nth-child(1) {
   position: absolute;
-  right: 50px;
+  left: 80px;
+  top: 95px;
+
+  transform: rotate(-15deg);
 }
 
-.polaroid:nth-child (2) {
+
+
+.polaroid:nth-child(2) {
   position: absolute;
+  left: 120px;
+  top: 150px;
+
+  transform: rotate(5deg);
+  z-index: 3;
 }
 
-.polaroid:nth-child (1) {
+
+
+.polaroid:nth-child(3) {
   position: absolute;
+  left: 150px;
+  top: 80px;
+
+  transform: rotate(25deg);
 }
+
+
 
