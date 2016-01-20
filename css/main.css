@@ -70,16 +70,12 @@ html {
   z-index: 1;
 }
 
-.polaroid:nth-child(1):hover {
-  transform: rotate(0);
+
+
+
+.polaroid:nth-child(1):hover, .polaroid:nth-child(2):hover, .polaroid:nth-child(3):hover {
+  transform: rotate(0deg);
+  z-index: 5;
 }
 
-.polaroid:nth-child(2):hover {
-  transform: rotate(0);
-  z-index: 100;
-}
 
-.polaroid:nth-child(3):hover {
-  transform: rotate(0);
-  z-index: 1;
-}
