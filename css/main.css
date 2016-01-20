@@ -52,7 +52,6 @@ html {
   left: 20%;
 }
 
-
 .polaroid:nth-child(2) {
   transform: rotate(5deg);
   position: absolute;
