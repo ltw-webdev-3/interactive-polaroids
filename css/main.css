@@ -41,7 +41,7 @@ html {
   position: absolute;
   transform: rotate(10deg);
   top: 25%;
-  left:30%;
+  left: 30%;
   z-index: 2;
 }
 
