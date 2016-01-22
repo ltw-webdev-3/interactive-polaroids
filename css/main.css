@@ -39,3 +39,16 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
+.polaroid:nth-child(1) {
+  transform: rotate(-15deg);
+
+}
+
+.polaroid:nth-child(2) {
+  transform: rotate(15deg);
+}
+
+.polaroid:nth-child(3) {
+  transform: rotate(45deg);
+
+}
