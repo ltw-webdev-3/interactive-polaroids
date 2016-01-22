@@ -12,7 +12,6 @@ html {
   text-size-adjust: 100%;
 
   background-color: #e2e2e2;
-
   font-family: sans-serif;
 }
 
@@ -55,7 +54,6 @@ html {
   transform: rotate(0deg);
   z-index: 2000;
   box-shadow: 1px 8px 12px rgba(0, 0, 0, .5);
-
 }
 
 .polaroid:nth-child(2) {
@@ -71,7 +69,6 @@ html {
   transform: rotate(0deg);
   z-index: 1000;
   box-shadow: 1px 8px 12px rgba(0, 0, 0, .5);
-
 }
 
 .polaroid:nth-child(3) {
