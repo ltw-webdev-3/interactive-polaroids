@@ -43,22 +43,26 @@ html {
 .trans1:hover, .trans2:hover, .trans3:hover {
   box-shadow: 2px 8px 12px rgba(0, 0, 0, .8);
   transform: rotate(0deg);
+  z-index: 1000;
 }
 
 .trans1 {
   position: absolute;
-  transform: rotate(40deg);
+  transform: rotate(20deg);
   transition: all 300ms linear;
+  z-index: 1000;
 }
 
 .trans2 {
   position: absolute;
-  transform: rotate(40deg);
+  transform: rotate(-10deg);
   transition: all 300ms linear;
+  z-index: 1000;
 }
 
 .trans3 {
   position: absolute;
   transform: rotate(40deg);
   transition: all 300ms linear;
+  z-index: 1000;
 }
