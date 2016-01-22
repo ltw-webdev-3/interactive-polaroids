@@ -75,7 +75,8 @@ html {
   transition: all 200ms linear;
 }
 
-.polaroid:nth-child(3):hover {
+/*.polaroid:nth-child(3):hover {
   transform: rotate(0deg);
   z-index: 2000;
 }
+*/
