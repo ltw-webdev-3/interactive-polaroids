@@ -38,4 +38,26 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+  text-align: center;
+}
+
+.polaroid:nth-child(1) {
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+
+.polaroid:nth-child(2) {
+  transform: rotate(15deg);
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+
+.polaroid:nth-child(3) {
+  transform: rotate(40deg);
+  position: absolute;
+  top: 25%;
+  left: 40%;
 }
