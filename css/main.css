@@ -28,6 +28,15 @@ html {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+
+  position: absolute;
+  transition: all 300ms linear;
+  transform: rotate(45deg);
+}
+
+.polaroid:hover{
+  box-shadow: 2px 8px 18px rgba(0, 0, 0, .8);
+  transform: rotate(0deg);
 }
 
 .polaroid > img {
