@@ -48,21 +48,31 @@ html {
 
 .trans1 {
   position: absolute;
-  transform: rotate(20deg);
+  transform: rotate(-10deg);
   transition: all 300ms linear;
-  z-index: 1000;
+  z-index: 100;
+  left: 40em;
+  top: 30em;
 }
 
 .trans2 {
   position: absolute;
-  transform: rotate(-10deg);
+  transform: rotate(20deg);
   transition: all 300ms linear;
-  z-index: 1000;
+  z-index: 100;
+  left: 55em;
+  top: 30em;
 }
 
 .trans3 {
   position: absolute;
   transform: rotate(40deg);
   transition: all 300ms linear;
-  z-index: 1000;
+  z-index: 98;
+  left: 75em;
+  top: 30em;
+}
+
+figcaption {
+  text-align: center;
 }
