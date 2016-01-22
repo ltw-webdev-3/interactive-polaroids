@@ -52,30 +52,30 @@ html {
 }
 
 .polaroid:nth-child(3) {
-  transform:rotate(20deg);
+  transform: rotate(20deg);
   position: absolute;
   left: 30%;
   top: 30%;
 }
 
 .polaroid:nth-child(2) {
-  transform:rotate(10deg);
-  position:absolute;
+  transform: rotate(10deg);
+  position: absolute;
   left: 25%;
   top: 40%;
 }
 
 .polaroid:nth-child(1):hover{
   z-index: 1000;
-  transform:rotate(0deg);
+  transform: rotate(0deg);
 }
 
 .polaroid:nth-child(2):hover{
   z-index: 1000;
-  transform:rotate(0deg);
+  transform: rotate(0deg);
 }
 
 .polaroid:nth-child(3):hover{
   z-index: 1000;
-  transform:rotate(0deg);
+  transform: rotate(0deg);
 }
