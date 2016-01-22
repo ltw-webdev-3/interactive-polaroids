@@ -65,17 +65,20 @@ html {
   top: 40%;
 }
 
-.polaroid:nth-child(1):hover{
+.polaroid:nth-child(1):hover {
   z-index: 1000;
   transform: rotate(0deg);
+  transition: all 300ms;
 }
 
-.polaroid:nth-child(2):hover{
+.polaroid:nth-child(2):hover {
   z-index: 1000;
   transform: rotate(0deg);
+  transition: all 300ms;
 }
 
-.polaroid:nth-child(3):hover{
+.polaroid:nth-child(3):hover {
   z-index: 1000;
   transform: rotate(0deg);
+  transition: all 300ms;
 }
