@@ -14,6 +14,7 @@ html {
   background-color: #e2e2e2;
 
   font-family: sans-serif;
+  padding: 3em;
 }
 
 *, *::before, *::after {
@@ -28,7 +29,7 @@ html {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
-  position: relative;
+  position: absolute;
 }
 
 .polaroid > img {
