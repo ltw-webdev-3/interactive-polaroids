@@ -24,7 +24,7 @@ html {
   margin: 0;
   padding: 10px;
   width: 250px;
-
+  transition: .3s;
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
@@ -50,14 +50,22 @@ html {
 
 .polaroid:nth-child(2) {
   transform: rotate(15deg);
+  z-index: 500;
   position: absolute;
   top: 25%;
   left: 30%;
 }
 
 .polaroid:nth-child(3) {
-  transform: rotate(40deg);
+  transform: rotate(35deg);
   position: absolute;
   top: 25%;
   left: 40%;
+}
+
+.polaroid:hover {
+  z-index: 1000;
+  transform: rotate(0deg);
+  box-shadow: 10px 14px 16px black;
+
 }
