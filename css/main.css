@@ -20,22 +20,70 @@ html {
   box-sizing: inherit;
 }
 
+body{
+  margin: 5em;
+}
+
 .polaroid {
+  text-align: center;
   margin: 0;
   padding: 10px;
   width: 250px;
-
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+  transform: rotate(33deg);
+  position: absolute;
+}
+
+.polaroid:nth-child(1) {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+  transform: rotate(-33deg);
+}
+
+.polaroid:nth-child(2) {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+  transform: rotate(8deg);
+  z-index: 10;
 }
 
 .polaroid > img {
   display: block;
   width: 100%;
+  text-align: center;
 }
 
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+}
+
+.polaroid:hover {
+  transform: rotate(0deg);
+  position: absolute;
+  z-index: 10;
+}
+
+.polaroid:nth-child(1):hover {
+  transform: rotate(0deg);
+  position: absolute;
+  z-index: 10;
+}
+
+.polaroid:nth-child(2):hover{
+  transform: rotate(0deg);
+  position: absolute;
+  z-index: 10;
 }
