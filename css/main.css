@@ -40,6 +40,9 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+  position: absolute;
+  bottom: 1em;
+  left: 30%;
 }
 
 .polaroid:nth-child(1) {
