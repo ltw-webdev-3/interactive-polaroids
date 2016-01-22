@@ -72,7 +72,7 @@ html {
 }
 
 .polaroid:nth-child(2):hover {
-  z-index: 1001;
+  z-index: 1000;
   transform: rotate(0deg);
   transition: all 300ms;
 }
