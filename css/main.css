@@ -28,6 +28,26 @@ html {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+
+  position: relative;
+  left: 200px;
+  top: 200px;
+
+}
+
+.polaroid:nth-child(1){
+  z-index: 1;
+  transform: rotate(-10deg);
+}
+
+.polaroid:nth-child(2){
+  z-index: 2;
+}
+
+.polaroid:nth-child(3){
+  transform: rotate(25deg);
+  z-index: 0;
+  top: 200px;
 }
 
 .polaroid > img {
