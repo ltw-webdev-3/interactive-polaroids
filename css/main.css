@@ -32,7 +32,7 @@ body{
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
-  transform: rotate(33deg);
+  transform: rotate(30deg);
   position: absolute;
 }
 
@@ -44,7 +44,7 @@ body{
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
-  transform: rotate(-33deg);
+  transform: rotate(-30deg);
 }
 
 .polaroid:nth-child(2) {
