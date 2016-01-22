@@ -28,6 +28,26 @@ html {
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
 }
+.polaroid:nth-child(1) {
+
+}
+.polaroid:nth-child(1):hover {
+
+}
+.polaroid:nth-child(2) {
+
+}
+
+.polaroid:nth-child(2):hover {
+
+}
+
+.polaroid:nth-child(3) {
+
+}
+.polaroid:nth-child(3):hover {
+
+}
 
 .polaroid > img {
   display: block;
@@ -37,6 +57,7 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
-  transform-origin: right bottom;
   animation: spin 1s infinite alternate;
 }
+
+a:
