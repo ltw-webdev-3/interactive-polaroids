@@ -39,3 +39,47 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
+
+div {
+  text-align: center;
+}
+
+.hardrosaur {
+  position: absolute;
+  left: 7em;
+  top: 6em;
+  transform: rotate(-15deg);
+}
+
+.hardrosaur:hover {
+  transform: rotate(0deg);
+  transition: all 200ms linear;
+  z-index: 1000;
+}
+
+.pteranodon {
+  position: absolute;
+  left: 14em;
+  top: 8em;
+  z-index: 500;
+  transform: rotate(5deg);
+}
+
+.pteranodon:hover {
+  transform: rotate(0deg);
+  transition: all 200ms linear;
+  z-index: 1000;
+}
+
+.stegosaurus {
+  position: absolute;
+  right: 10em;
+  top: 5em;
+  transform: rotate(25deg);
+}
+
+.stegosaurus:hover {
+  transform: rotate(0deg);
+  transition: all 200ms linear;
+  z-index: 1000;
+}
