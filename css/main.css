@@ -28,6 +28,7 @@ html {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+  text-align: center;
 }
 
 .polaroid > img {
@@ -41,14 +42,21 @@ html {
 }
 .polaroid:nth-child(1) {
   transform: rotate(-15deg);
-
+  position: absolute;
+  bottom: 50%;
+  left: 20%;
 }
 
 .polaroid:nth-child(2) {
-  transform: rotate(15deg);
+  transform: rotate(10deg);
+  position: absolute;
+  bottom: 50%;
+  left: 25%;
 }
 
 .polaroid:nth-child(3) {
-  transform: rotate(45deg);
-
+  transform: rotate(35deg);
+  position: absolute;
+  bottom: 50%;
+  left: 40%;
 }
