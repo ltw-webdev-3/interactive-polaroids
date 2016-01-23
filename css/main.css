@@ -35,7 +35,7 @@ body {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
 }
 
-.polaroid:nth-child(1){
+.polaroid:nth-child(1) {
   transform: rotate(-15deg);
   position: absolute;
   left: 20%;
@@ -49,7 +49,7 @@ body {
   box-shadow: 1px 1px 12px rgba(0, 0, 0, .5);
 }
 
-.polaroid:nth-child(2){
+.polaroid:nth-child(2) {
   transform: rotate(5deg);
   position: absolute;
   left: 30%;
@@ -63,7 +63,7 @@ body {
   box-shadow: 1px 1px 12px rgba(0, 0, 0, .5);
 }
 
-.polaroid:nth-child(3){
+.polaroid:nth-child(3) {
   transform: rotate(20deg);
   position: absolute;
   left: 40%;
