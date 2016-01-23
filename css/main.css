@@ -24,6 +24,8 @@ html {
   margin: 0;
   padding: 10px;
   width: 250px;
+  text-align: center;
+  position: absolute;
 
   background-color: #fff;
   border-radius: 4px;
@@ -41,18 +43,13 @@ html {
 }
 
 .polaroid:nth-child(1) {
-  text-align: center;
-  position: absolute;
   transform: rotate(-15deg);
 }
 
 .polaroid:nth-child(2) {
-  position: absolute;
-  display: none;
-
+  transform: rotate(4deg);
 }
 
 .polaroid:nth-child(3) {
-  position: absolute;
-  display: none;
+  transform: rotate(40deg);
 }
