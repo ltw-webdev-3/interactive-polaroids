@@ -58,7 +58,7 @@ html {
   transform: rotate(5deg);
   position: absolute;
   left: 26.5%;
-  top: 25%;
+  top: 26%;
 }
 
 .polaroid:nth-child(2):hover {
