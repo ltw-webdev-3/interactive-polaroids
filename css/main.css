@@ -80,7 +80,7 @@ body {
   z-index: 10;
 }
 
-.polaroid:nth-child(2):hover{
+.polaroid:nth-child(2):hover {
   transform: rotate(0deg);
   position: absolute;
   z-index: 10;
