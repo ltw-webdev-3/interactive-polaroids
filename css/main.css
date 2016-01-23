@@ -10,9 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
   background-color: #e2e2e2;
-
   font-family: sans-serif;
 }
 
@@ -80,5 +78,5 @@ html {
 
 .polaroid:nth-child(3):hover {
   transform: rotate(0deg);
-    z-index: 3;
+  z-index: 3;
 }
