@@ -53,3 +53,17 @@ html {
   transform: rotate(0deg);
   box-shadow: 1px 1px 12px rgba(0, 0, 0, .5);
 }
+
+.polaroid:nth-child(2) {
+  transform: rotate(5deg);
+  position: absolute;
+  left: 26.5%;
+  top: 25%;
+}
+
+.polaroid:nth-child(2):hover {
+  z-index: 1000;
+  transition: all 300ms;
+  transform: rotate(0deg);
+  box-shadow: 1px 1px 12px rgba(0, 0, 0, .5);
+}
