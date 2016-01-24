@@ -67,11 +67,11 @@ figcaption {
 }
 
 .polaroid:nth-child(2) {
-  position:absolute;
+  position: absolute;
   z-index: 0;
   transform: rotate(35deg);
-  top:30%;
-  left:20%;
+  top: 30%;
+  left: 20%;
   transition: all 200ms ease;
 }
 
@@ -81,11 +81,11 @@ figcaption {
 }
 
 .polaroid:nth-child(3) {
-  position:absolute;
+  position: absolute;
   z-index: 0;
   transform: rotate(20deg);
-  top:15%;
-  left:20%;
+  top: 15%;
+  left: 20%;
   transition: all 200ms ease;
 }
 
