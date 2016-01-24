@@ -24,18 +24,59 @@ html {
   margin: 0;
   padding: 10px;
   width: 250px;
-
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+  position: relative;
 }
 
 .polaroid > img {
   display: block;
   width: 100%;
+  position: relative;
 }
 
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+}
+
+figure{
+  position: relative;
+  bottom: 15px;
+}
+
+figcaption{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.polaroid:nth-child(1):hover {
+  transform: rotate(0deg);
+  z-index: 7;
+  box-shadow: 1px 5px 8px rgba(0,0,0,1);
+}
+
+.polaroid:nth-child(2) {
+  position:absolute;
+  z-index: 0;
+  transform: rotate(35deg);
+}
+
+.polaroid:nth-child(2):hover {
+  transform: rotate(0deg);
+  z-index: 7;
+  box-shadow: 1px 5px 8px rgba(0,0,0,1);
+}
+
+.polaroid:nth-child(3) {
+  position:absolute;
+  z-index:0;
+}
+
+.polaroid:nth-child(3):hover {
+  transform: rotate(0deg);
+  z-index: 7;
+  box-shadow: 1px 5px 8px rgba(0,0,0,1);
 }
