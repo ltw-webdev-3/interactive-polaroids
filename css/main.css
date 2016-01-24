@@ -41,11 +41,11 @@ html {
   text-shadow: 1px 1px 3px #000;
 }
 
-figure{
+figure {
   position: relative;
 }
 
-figcaption{
+figcaption {
   position: absolute;
   width: 100%;
   text-align: center;
@@ -64,7 +64,6 @@ figcaption{
 .polaroid:nth-child(1):hover {
   transform: rotate(0deg);
   z-index: 7;
-  box-shadow: 1px 5px 8px rgba(0,0,0,1);
 }
 
 .polaroid:nth-child(2) {
@@ -79,7 +78,6 @@ figcaption{
 .polaroid:nth-child(2):hover {
   transform: rotate(0deg);
   z-index: 7;
-  box-shadow: 1px 5px 8px rgba(0,0,0,1);
 }
 
 .polaroid:nth-child(3) {
@@ -94,5 +92,4 @@ figcaption{
 .polaroid:nth-child(3):hover {
   transform: rotate(0deg);
   z-index: 7;
-  box-shadow: 1px 5px 8px rgba(0,0,0,1);
 }
