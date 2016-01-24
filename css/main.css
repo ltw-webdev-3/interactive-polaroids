@@ -52,6 +52,13 @@ figcaption{
   text-align: center;
 }
 
+.polaroid:nth-child(1) {
+  position: absolute;
+  transform: rotate(0deg);
+  z-index: 0;
+  box-shadow: 1px 5px 8px rgba(0,0,0,1);
+}
+
 .polaroid:nth-child(1):hover {
   transform: rotate(0deg);
   z-index: 7;
@@ -75,7 +82,11 @@ figcaption{
 
 .polaroid:nth-child(3) {
   position:absolute;
-  z-index:0;
+  z-index: 0;
+  transform: rotate(20deg);
+  top:15%;
+  left:20%;
+  transition: all 200ms ease;
 }
 
 .polaroid:nth-child(3):hover {
