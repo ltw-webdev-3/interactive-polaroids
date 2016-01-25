@@ -46,7 +46,7 @@ div {
 
 .hadrosaur {
   position: absolute;
-  left:7em;
+  left: 7em;
   top: 6em;
   transform: rotate(-12deg);
 }
@@ -76,7 +76,7 @@ div {
   right: 10em;
   top: 5em;
   transform: rotate(32deg);
- }
+}
 
 .stegosaurus:hover {
   transform: rotate(0deg);
