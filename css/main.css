@@ -70,3 +70,10 @@ div {
   transition: all 200ms linear;
   z-index: 500;
 }
+
+.stegosaurus {
+  position: absolute;
+  right: 10em;
+  top: 5em;
+  transform: rotate(32deg);
+ }
