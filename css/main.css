@@ -85,6 +85,6 @@ html {
   z-index: 9999;
 }
 
-.polaroid:hover{
+.polaroid:hover {
   box-shadow: -2px 8px 18px rgba(0, 0, 0, 0.75);
 }
