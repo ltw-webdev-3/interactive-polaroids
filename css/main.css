@@ -68,5 +68,8 @@ html {
 
 .polaroid:nth-child(1):hover, .polaroid:nth-child(2):hover, .polaroid:nth-child(3):hover{
   transform: rotate(0deg);
+  z-index: 1000;
+  transition: all 250ms linear;
+  box-shadow: 4px 12px 18px rgba(0, 0, 0, .8);
 }
 
