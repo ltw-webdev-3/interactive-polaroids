@@ -20,11 +20,15 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  position: relative;
+}
+
 .polaroid {
   margin: 0;
   padding: 10px;
   width: 250px;
-
+  position: relative;
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
@@ -38,4 +42,39 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+  position: absolute;
+  bottom: 20px;
+  left: 5em;
+
+}
+
+.polaroid:nth-child(1) {
+  transform: rotate(-15deg);
+  z-index: 1;
+  position: absolute;
+  left: 22%;
+  top: 10em;
+}
+
+.polaroid:nth-child(2) {
+  transform: rotate(5deg);
+  z-index: 3;
+  position: absolute;
+  top: 13em;
+  left: 30%;
+}
+
+.polaroid:nth-child(3) {
+  transform: rotate(30deg);
+  z-index: 2;
+  position: absolute;
+  left: 40%;
+  top: 10em;
+}
+
+.polaroid:nth-child(1):hover, .polaroid:nth-child(2):hover, .polaroid:nth-child(3):hover {
+  z-index: 11;
+  transform: rotate(0deg);
+  box-shadow: 4px 12px 18px rgba(0, 0, 0, .8);
+  transition: all 200ms linear;
 }
