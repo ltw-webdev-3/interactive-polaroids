@@ -54,7 +54,7 @@ div {
 .hadrosaur:hover {
   transform: rotate(0deg);
   transition: all 200ms linear;
-  z-index: 500;
+  z-index: 1000;
 }
 
 .pteranodon {
