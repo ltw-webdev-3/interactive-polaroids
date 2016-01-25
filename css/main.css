@@ -57,3 +57,10 @@ div {
   z-index: 500;
 }
 
+.pteranodon {
+  position: absolute;
+  left: 14em;
+  top: 8em;
+  z-index: 500;
+  transform: rotate(5deg);
+}
