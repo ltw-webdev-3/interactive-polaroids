@@ -43,7 +43,7 @@ html {
   left: 13em;
 }
 
-.polariod:nth-child(1):hover, .polariod:nth-child(2):hover, .polariod:nth-child(3):hover {
+.polaroid:nth-child(1):hover, .polaroid:nth-child(2):hover, .polaroid:nth-child(3):hover {
   box-shadow: 2px 8px 12px rgba(0, 0, 0, .8);
   transform: rotate(0deg);
   z-index: 1000;
