@@ -48,7 +48,7 @@ html {
   transform: rotate(-15deg);
   position: absolute;
   top: 20%;
-  right: 50%;
+  left: 28%;
 }
 
 .polaroid:nth-child(2) {
