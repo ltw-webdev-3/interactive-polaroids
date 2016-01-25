@@ -38,9 +38,12 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+  position: absolute;
+  bottom: 2em;
+  left: 13em;
 }
 
-.polariod:nth-child(1):hover, .polariod:nth-child(2):hover, .polariod:nth-child(3):hover,
+.polariod:nth-child(1):hover, .polariod:nth-child(2):hover, .polariod:nth-child(3):hover {
   box-shadow: 2px 8px 12px rgba(0, 0, 0, .8);
   transform: rotate(0deg);
   z-index: 1000;
