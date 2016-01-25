@@ -43,3 +43,11 @@ html {
 div {
   text-align: center;
 }
+
+.hadrosaur {
+  position: absolute;
+  left:7em;
+  top: 6em;
+  transform: rotate(-12deg);
+}
+
