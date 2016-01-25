@@ -77,3 +77,9 @@ div {
   top: 5em;
   transform: rotate(32deg);
  }
+
+.stegosaurus:hover {
+  transform: rotate(0deg);
+  transition: all 200ms linear;
+  z-index: 500;
+}
