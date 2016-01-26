@@ -31,8 +31,23 @@ html {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
 
   position: relative;
-  transform: rotate(-20deg);
   transition: all 200ms linear;
+}
+
+.polaroid:nth-child(1) {
+  transform: rotate(-15deg);
+  z-index: 1;
+  position: absolute;
+  left: 22%;
+  top: 10em;
+}
+
+.polaroid:nth-child(2) {
+  transform: rotate(5deg);
+  z-index: 3;
+  position: absolute;
+  left: 30%;
+  top: 13em;
 }
 
 .polaroid:hover {
