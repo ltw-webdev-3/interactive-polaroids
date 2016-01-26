@@ -33,9 +33,35 @@ html {
 .polaroid > img {
   display: block;
   width: 100%;
+  position: relative;
 }
 
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+  position: absolute;
+  bottom: 15px;
+  left: 33%;
+}
+
+.top {
+  transform: rotate(10deg) translate(200px, 0);
+  z-index: 1000;
+  position: absolute;
+  top: 120px;
+  left: -50px;
+}
+
+.middle {
+  transform: rotate(33deg) translate(200px, 0);
+  position: absolute;
+  left: 10px
+  
+}
+
+.bottom {
+  transform: rotate(-10deg) translate(200px, 0);
+  position: absolute;
+  top: 120px;
+  left: -90px
 }
