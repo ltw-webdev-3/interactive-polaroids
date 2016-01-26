@@ -84,4 +84,7 @@ html {
 
 figcaption{
   text-align: center;
+  position: absolute;
+  bottom: 1em;
+  right: 35%;
 }
