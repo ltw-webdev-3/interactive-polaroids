@@ -40,6 +40,11 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+figcaption {
+  text-align: center;
+  position: absolute;
+  bottom: 1em;
+  right: 35%;
 }
 
 .polaroid:nth-child(1) {
