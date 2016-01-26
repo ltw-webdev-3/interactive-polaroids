@@ -69,10 +69,10 @@ html {
 }
 
 .polaroid:nth-child(3) {
-  transform: rotate(20deg);
+  transform: rotate(30deg);
   position: absolute;
-  left: 25%;
-  top: 27%;
+  left: 35%;
+  top: 20%;
 }
 
 .polaroid:nth-child(3):hover {
