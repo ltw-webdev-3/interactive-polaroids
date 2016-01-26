@@ -50,7 +50,6 @@ html {
   top: 13em;
 }
 
-
 .polaroid:nth-child(3) {
   transform: rotate(30deg);
   z-index: 2;
