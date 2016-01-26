@@ -81,7 +81,7 @@ html {
   left: 25%;
 }
 
-.polaroid:nth-child(3){
+.polaroid:nth-child(3) {
   transform: rotate(25deg);
   position: absolute;
   top:18%;
