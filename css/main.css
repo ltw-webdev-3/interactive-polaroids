@@ -52,4 +52,11 @@ html {
 
 .polaroid:nth-child(3) {
   transform: rotate(40deg);
+.polaroid:nth-child(1):hover,
+.polaroid:nth-child(2):hover,
+.polaroid:nth-child(3):hover {
+  z-index: 1000;
+  transition: all 400ms;
+  transform: rotate(0deg);
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, .8);
 }
