@@ -62,7 +62,7 @@ html {
   left: 80px;
   top: 50px;
   transition: all 400ms linear;
-  z-index: 2;
+  z-index: 3;
 }
 
 .two:hover {
