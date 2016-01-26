@@ -55,13 +55,12 @@ html {
 .middle {
   transform: rotate(33deg) translate(200px, 0);
   position: absolute;
-  left: 10px
-  
+  left: 10px;
 }
 
 .bottom {
   transform: rotate(-10deg) translate(200px, 0);
   position: absolute;
   top: 120px;
-  left: -90px
+  left: -90px;
 }
