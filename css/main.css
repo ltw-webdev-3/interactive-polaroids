@@ -50,9 +50,19 @@ html {
   top: 13em;
 }
 
+
+.polaroid:nth-child(3) {
+  transform: rotate(30deg);
+  z-index: 2;
+  position: absolute;
+  left: 40%;
+  top: 10em;
+}
+
 .polaroid:hover {
   transform: rotate(0deg);
   z-index: 1000;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .polaroid > img {
