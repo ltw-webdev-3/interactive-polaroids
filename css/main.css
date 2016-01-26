@@ -49,14 +49,25 @@ figcaption {
 
 .polaroid:nth-child(1) {
   transform: rotate(-15deg);
+  z-index: 1;
+  top: 10%;
+  left: 2%;
 }
 
 .polaroid:nth-child(2) {
   transform: rotate(4deg);
+  z-index: 3;
+  top: 15%;
+  left: 10%;
 }
 
 .polaroid:nth-child(3) {
   transform: rotate(40deg);
+  z-index: 2;
+  top: 8%;
+  left: 22%;
+}
+
 .polaroid:nth-child(1):hover,
 .polaroid:nth-child(2):hover,
 .polaroid:nth-child(3):hover {
