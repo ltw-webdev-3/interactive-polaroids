@@ -34,7 +34,6 @@ html {
 .polaroid > img {
   display: block;
   width: 100%;
-  transition:
   transform: rotate(30deg) scale(1.5);
 }
 
