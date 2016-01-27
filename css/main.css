@@ -29,8 +29,21 @@ html {
   top: 50px;
   position: absolute;
   text-align: center;
-
 }
+
+.polaroid > img {
+  display: block;
+  width: 100%;
+}
+
+.polaroid > figcaption {
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+  animation: spin 1s infinite alternate;
+  bottom: 1em;
+  left: 30%;
+}
+
 .polaroid:nth-child(1) {
   transform: rotate(-10deg);
 
@@ -53,16 +66,3 @@ html {
 .polaroid:nth-child(3):hover {
   z-index: 20;
 }
-
-.polaroid > img {
-  display: block;
-  width: 100%;
-}
-
-.polaroid > figcaption {
-  color: #fff;
-  text-shadow: 1px 1px 3px #000;
-  animation: spin 1s infinite alternate;
-}
-
-a:
