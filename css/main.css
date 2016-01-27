@@ -34,11 +34,11 @@ html {
   display: block;
   width: 100%;
   transition:
-  background-color 250ms ease-out,
-  border-radius 1s ease-in-out
+  position: relative;
 }
 
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+  position: absolute;
 }
