@@ -35,6 +35,7 @@ html {
   display: block;
   width: 100%;
   transition:
+  transform: rotate(30deg) scale(1.5)
 }
 
 .polaroid > figcaption {
@@ -43,4 +44,11 @@ html {
   position: absolute;
   bottom: 20px;
   left: 80px;
+}
+
+.polaroid:nth-child(1) {
+  transform: rotate(-15deg);
+  position: absolute;
+  left: 20%;
+  top: 20%;
 }
