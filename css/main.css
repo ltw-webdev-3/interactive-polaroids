@@ -33,6 +33,9 @@ html {
 .polaroid > img {
   display: block;
   width: 100%;
+  transition:
+  background-color 250ms ease-out,
+  border-radius 1s ease-in-out
 }
 
 .polaroid > figcaption {
