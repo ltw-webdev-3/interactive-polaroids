@@ -58,3 +58,27 @@ html {
   z-index: 2;
   transition: .25s all;
 }
+
+.polaroid:nth-child(3) {
+  transform: rotate(35deg);
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  z-index: 1;
+  transition: .25s all;
+}
+
+.polaroid:nth-child(1):hover {
+  transform: rotate(0deg);
+  z-index: 999;
+}
+
+.polaroid:nth-child(2):hover {
+  transform: rotate(0deg);
+  z-index: 999;
+}
+
+.polaroid:nth-child(3):hover {
+  transform: rotate(0deg);
+  z-index: 999;
+}
