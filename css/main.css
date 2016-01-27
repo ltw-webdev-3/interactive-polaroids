@@ -28,29 +28,30 @@ html {
   right: 150px;
   top: 50px;
   position: absolute;
+  text-align: center;
 
 }
 .polaroid:nth-child(1) {
-  transform: rotate(10deg);
+  transform: rotate(-10deg);
 
 }
 .polaroid:nth-child(1):hover {
-  
-
+  transform: rotate(0deg);
+  z-index: 20;
 }
 .polaroid:nth-child(2) {
-  transform: rotate(10deg)
+  transform: rotate(5deg)
 
 }
 .polaroid:nth-child(2):hover {
-
+  z-index: 20;
 }
 
 .polaroid:nth-child(3) {
-  transform: rotate(10deg)
+  transform: rotate(15deg)
 }
 .polaroid:nth-child(3):hover {
-
+  z-index: 20;
 }
 
 .polaroid > img {
