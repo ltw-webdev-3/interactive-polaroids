@@ -25,7 +25,6 @@ html {
   padding: 10px;
   width: 250px;
   background-color: #fff;
-  right: 150px;
   top: 50px;
   position: absolute;
   text-align: center;
@@ -46,23 +45,31 @@ html {
 
 .polaroid:nth-child(1) {
   transform: rotate(-10deg);
-
+  left: 25%;
 }
+
 .polaroid:nth-child(1):hover {
   transform: rotate(0deg);
   z-index: 20;
 }
 .polaroid:nth-child(2) {
-  transform: rotate(5deg)
+  transform: rotate(5deg);
+  z-index: 10;
+  top: 30%;
+  left: 30%;
 
 }
 .polaroid:nth-child(2):hover {
+  transform: rotate(0deg);
   z-index: 20;
+
 }
 
 .polaroid:nth-child(3) {
-  transform: rotate(15deg)
+  transform: rotate(15deg);
+  left: 35%;
 }
 .polaroid:nth-child(3):hover {
+  transform: rotate(0deg);
   z-index: 20;
 }
