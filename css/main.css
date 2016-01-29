@@ -65,16 +65,19 @@ html {
   transition: all 400ms linear;
   transform: rotate(0deg);
   z-index: 1000;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
 }
 
 .polaroid:nth-child(2):hover {
   transition: all 400ms linear;
   transform: rotate(20deg);
   z-index: 1000;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 1.5);
 }
 
 .polaroid:nth-child(1):hover {
   transition: all 400ms linear;
   transform: rotate(0deg);
   z-index: 1000;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 1.5);
 }
