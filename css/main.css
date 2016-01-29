@@ -62,3 +62,18 @@ html {
   transform: rotate(20deg);
   left: 40%;
 }
+
+.polaroid:nth-child(1):hover {
+  transform: rotate(0deg);
+  z-index: 20;
+}
+
+.polaroid:nth-child(2):hover {
+  transform: rotate(0deg);
+  z-index: 20;
+}
+
+.polaroid:nth-child(3):hover {
+  transform: rotate(0deg);
+  z-index: 20;
+}
