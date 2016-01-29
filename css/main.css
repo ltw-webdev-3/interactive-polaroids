@@ -39,3 +39,46 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
+
+.polaroid:nth-child(1) {
+  transition: all 400ms linear;
+  transform: rotate(-20deg);
+  position: absolute;
+  top: 10em;
+  left: 6em;
+}
+
+.polaroid:nth-child(1):hover {
+  transform: rotate(0deg);
+  z-index: 2000;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 1.5);
+}
+
+.polaroid:nth-child(2) {
+  transition: all 400ms linear;
+  transform: rotate(5deg);
+  position: absolute;
+  top: 12em;
+  left: 10em;
+  z-index: 1000;
+}
+
+.polaroid:nth-child(2):hover {
+  transform: rotate(0deg);
+  z-index: 1000;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 1.5);
+}
+
+.polaroid:nth-child(3) {
+  transition: all 400ms linear;
+  transform: rotate(30deg);
+  position: absolute;
+  top: 10em;
+  left: 12em;
+}
+
+.polaroid:nth-child(3):hover {
+  transform: rotate(0deg);
+  z-index: 1000;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
+}
