@@ -45,11 +45,14 @@ html {
 }
 
 .polaroid:nth-child(2) {
+  transform: rotate(35deg);
+  position: absolute;
   left: 30%;
-  top: 10%;
-
+  top: 20%;
+  z-index: 1;
+  transition: .25s all;
 }
-.polaroid-3 {
+.polaroid:nth-child(2) {
   left: 20%;
 }
 
