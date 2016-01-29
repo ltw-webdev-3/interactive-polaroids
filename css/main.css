@@ -28,6 +28,8 @@ html {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+
+  position: relative;
 }
 
 .polaroid:nth-child(1):hover, .polaroid:nth-child(2):hover, .polaroid:nth-child(3):hover {
@@ -74,4 +76,8 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+  position: absolute;
+  left: 35%;
+  bottom: 8%;
+  font-size: 2rem;
 }
