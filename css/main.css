@@ -38,4 +38,53 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+  text-align: center;
+  bottom: 1.5em;
+  position: relative; 
 }
+
+.polaroid:hover {
+  transform: rotate(0deg);
+}  
+
+.polaroid:nth-child(1) {
+  transform: rotate(0deg);
+  z-index: 250;
+  position: absolute;
+  left: 2rem; 
+  top:2rem;
+}
+
+
+
+.polaroid:nth-child(2) {
+  transform: rotate(2deg);
+  z-index: 500;
+  position: absolute;
+  left: 8rem; 
+  top: 7em;
+}
+
+.polaroid:nth-child(3) {
+  transform: rotate(4deg);
+  transform: rotate(360deg);
+    animation: spin 2s infinite alternate;
+  z-index: 1000;
+  position: relative;
+  left: 15rem; 
+  top: 3em;
+
+}
+
+
+  transform-origin: right bottom;
+  animation: spin 1s infinite alternate;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+
+
+
+
+
