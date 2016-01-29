@@ -52,6 +52,7 @@ html {
   z-index: 1;
   transition: .25s all;
 }
+
 .polaroid:nth-child(3) {
   transform: rotate(35deg);
   position: absolute;
