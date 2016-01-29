@@ -33,24 +33,37 @@ html {
 .transform1:hover, .transform2:hover, .transform3:hover{
   box-shadow: 2px 8px 18px rgba(0, 0, 0, .8);
   transform: rotate(0deg);
+  z-index: 1000;
 }
 
 .transform1{
   position: absolute;
   transition: all 300ms linear;
-  transform: rotate(-25deg);
+  transform: rotate(-15deg);
+  z-index: 98;
+  left:25%;
+  top: 30%;
+  width: 500px;
 }
 
 .transform2{
   position: absolute;
   transition: all 300ms linear;
   transform: rotate(15deg);
+  z-index: 100;
+  left: 35%;
+  top: 30%;
+  width: 500px;
 }
 
 .transform3{
   position: absolute;
   transition: all 300ms linear;
   transform: rotate(38deg);
+  z-index: 99;
+  left: 45%;
+  top: 30%;
+  width: 500px;
 }
 
 .polaroid > img {
