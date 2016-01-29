@@ -41,22 +41,22 @@ html {
 }
 
 .polaroid:nth-child(1) {
-  transition: all 1000ms linear;
   transform: rotate(-20deg);
-    z-index: inherit;
+  position: absolute;
+  top: 10em;
+  left: 10em;
 }
 
 .polaroid:nth-child(2) {
-  transition: all 1000ms linear;
   transform: rotate(5deg);
-  z-index: inherit;
   position: absolute;
-  top: 0;
+  top: 10em;
+  left: 10em;
 }
 
 .polaroid:nth-child(3) {
-  transition: all 1000ms linear;
   transform: rotate(30deg);
   position: absolute;
-  top: 0em;
+  top: 10em;
+  left: 10em;
 }
