@@ -28,14 +28,62 @@ html {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+
+  top: 10%;
+  left: 10%;
 }
 
 .polaroid > img {
   display: block;
   width: 100%;
+
+  position: relative;
 }
 
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+
+  position: absolute;
+  bottom: 15px;
+  right: 80px;
+
+}
+
+.polaroid:nth-child(1) {
+  transform: rotate(-10deg) translate(111px, 100px);
+  z-index: 1;
+  position: absolute;
+
+}
+.polaroid:nth-child(1):hover {
+  z-index: 100;
+  transform: rotate(0deg) translate(1px, 100px);
+
+}
+
+.polaroid:nth-child(2) {
+  transform: rotate(5deg) translate(200px, 115px);
+  z-index: 300;
+  position: absolute;
+
+}
+
+.polaroid:nth-child(2):hover {
+  z-index: 300;
+  transform: rotate(0deg) translate(200px, 110px);
+
+}
+
+.polaroid:nth-child(3) {
+  transform: rotate(25deg) translate(280px, -40px);
+  z-index: 1;
+  position: absolute;
+
+}
+
+.polaroid:nth-child(3):hover {
+  z-index: 100;
+  transform: rotate(0deg) translate(400px, 120px);
+
 }
