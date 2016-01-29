@@ -43,12 +43,8 @@ html {
   position: relative; 
 }
 
-.polaroid:hover {
-  transform: rotate(0deg);
-}  
-
 .polaroid:nth-child(1) {
-  transform: rotate(0deg);
+  transform: rotate(-10deg);
   z-index: 250;
   position: absolute;
   left: 2rem; 
@@ -67,22 +63,12 @@ html {
 
 .polaroid:nth-child(3) {
   transform: rotate(4deg);
-  transform: rotate(360deg);
-    animation: spin 2s infinite alternate;
   z-index: 1000;
   position: relative;
   left: 15rem; 
   top: 3em;
 
 }
-
-
-  transform-origin: right bottom;
-  animation: spin 1s infinite alternate;
-}
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
 
 
 
