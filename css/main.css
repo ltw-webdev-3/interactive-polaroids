@@ -60,3 +60,8 @@ html {
   top: 10em;
   left: 10em;
 }
+
+.polaroid:nth-child(3):hover {
+  transition: all 1000ms linear;
+  transform: rotate(20deg);
+}
