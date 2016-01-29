@@ -39,3 +39,24 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
+
+.polaroid:nth-child(1) {
+  transition: all 1000ms linear;
+  transform: rotate(-20deg);
+    z-index: inherit;
+}
+
+.polaroid:nth-child(2) {
+  transition: all 1000ms linear;
+  transform: rotate(5deg);
+  z-index: inherit;
+  position: absolute;
+  top: 0;
+}
+
+.polaroid:nth-child(3) {
+  transition: all 1000ms linear;
+  transform: rotate(30deg);
+  position: absolute;
+  top: 0em;
+}
