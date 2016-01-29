@@ -30,13 +30,13 @@ html {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
 }
 
-.transform1:hover, .transform2:hover, .transform3:hover{
+.polaroid:nth-child(1):hover, .polaroid:nth-child(2):hover, .polaroid:nth-child(3):hover {
   box-shadow: 2px 8px 18px rgba(0, 0, 0, .8);
   transform: rotate(0deg);
   z-index: 1000;
 }
 
-.transform1{
+.polaroid:nth-child(1) {
   position: absolute;
   transition: all 300ms linear;
   transform: rotate(-15deg);
@@ -46,7 +46,7 @@ html {
   width: 500px;
 }
 
-.transform2{
+.polaroid:nth-child(2) {
   position: absolute;
   transition: all 300ms linear;
   transform: rotate(15deg);
@@ -56,7 +56,7 @@ html {
   width: 500px;
 }
 
-.transform3{
+.polaroid:nth-child(3) {
   position: absolute;
   transition: all 300ms linear;
   transform: rotate(38deg);
