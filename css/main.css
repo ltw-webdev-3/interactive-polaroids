@@ -51,7 +51,9 @@ html {
   top:2rem;
 }
 
+polaroid:nth-child(1):hover {
 
+}
 
 .polaroid:nth-child(2) {
   transform: rotate(5deg);
@@ -61,12 +63,19 @@ html {
   top: 7em;
 }
 
+polaroid:nth-child(2):hover {
+
+}
+
 .polaroid:nth-child(3) {
   transform: rotate(10deg);
   z-index: 1000;
   position: relative;
   left: 15rem; 
   top: 3em;
+}
+
+polaroid:nth-child(1):hover {
 
 }
 
