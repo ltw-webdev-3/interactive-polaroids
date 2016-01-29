@@ -22,10 +22,9 @@ html {
 
 .polaroid {
   margin: 0;
-  padding: 10px;
-  width: 250px;
+  padding: 12px;
+  width: 300px;
   position: relative;
-
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
@@ -41,19 +40,19 @@ html {
   text-shadow: 1px 1px 3px #000;
   bottom: 20px;
   left: 70px;
-  position: relative;
+  position: absolute;
 }
 
 .polaroid:nth-child(1) {
   transform: rotate(-15deg);
-  top: 20%;
-  left: 20%;
+  top: 15%;
+  left: 10%;
   position: absolute;
 }
 
 .polaroid:nth-child(2) {
   z-index: 3;
-  transform: rotate(10deg);
+  transform: rotate(5deg);
   position: absolute;
   top: 20%;
   left: 20%;
@@ -61,13 +60,42 @@ html {
   
 .polaroid:nth-child(3) {
   z-index: 2;
-  transform: rotate(50deg);
+  transform: rotate(30deg);
   position: absolute;
-  top: 18%;
-  left: 28%;
+  top: 15%;
+  left: 30%;
 }
 
-.polaroi
+.polaroid:hover {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, .75);
+}
+
+.polaroid:nth-child(1):hover {
+  transform: rotate(0deg);
+  z-index: 5;
+  transition: .30 all;
+}
+
+.polaroid:nth-child(2):hover {
+  transform: rotate(0deg);
+  z-index: 3;
+  transition: .30 all;
+}
+
+.polaroid:nth-child(3):hover {
+  transform: rotate(0deg);
+  z-index: 3;
+  transition: .30 all;
+}
+  
+
+
+
+
+
+
+
+  
 
 
   
