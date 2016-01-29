@@ -56,3 +56,12 @@ html {
   z-index: 2000;
   box-shadow: 1px 8px 12px rgba(0, 0, 0, .5);
 }
+
+.polaroid:nth-child(2) {
+  position: absolute;
+  top: 120px;
+  left: 20%;
+  transform: rotate(10deg);
+  z-index: 1000;
+  transition: all 200ms linear;
+}
