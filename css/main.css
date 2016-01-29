@@ -36,27 +36,27 @@ html {
 }
 
 .polaroid:nth-child(1) {
-  transform: rotate(-15deg);
+  transform: rotate(-10deg);
   position: absolute;
-  left: 15%;
-  top: 20%;
+  left: 22%;
+  top: 18%;
   z-index: 0;
   transition: .25s all;
 }
 
 .polaroid:nth-child(2) {
-  transform: rotate(35deg);
+  transform: rotate(10deg);
   position: absolute;
   left: 30%;
-  top: 20%;
+  top: 25%;
   z-index: 1;
   transition: .25s all;
 }
 .polaroid:nth-child(3) {
   transform: rotate(35deg);
   position: absolute;
-  left: 30%;
-  top: 20%;
+  left: 39%;
+  top: 18%;
   z-index: 1;
   transition: .25s all;
 }
