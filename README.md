@@ -21,7 +21,7 @@ deliverables: '1 HTML file, 2 CSS files, images'
 Visually match the images in the “screenshots” folder and create the interaction shown in the linked video.
 
 - Final screenshots in the “screenshots” folder.
-- [**Watch this video to see how it interacts.**](https://youtu.be/0v38sTvsOMQ)
+- [**Watch this video to see how it interacts.**](https://videos.learntheweb.courses/playlists/web-dev-3/interactive-polaroids.mp4)
 
 ---
 
